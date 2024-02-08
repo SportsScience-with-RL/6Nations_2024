@@ -153,7 +153,7 @@ def sequence_stat(type_, time_):
     elif not st.session_state['correction_state']:
         if type_ == 'Essai':
             st.session_state['end_zone'] = 'En-but'
-            st.session_state['end_zone_value'] = 11
+            st.session_state['end_zone_value'] = 13
         
         if st.session_state['end_time'] == 0:
             st.session_state['end_time'] = time_
